@@ -1,0 +1,843 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5112674430154147613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5030849539945243600}
+  - component: {fileID: 6522932360392007497}
+  - component: {fileID: 3987200798469359129}
+  - component: {fileID: 2478297198424737721}
+  - component: {fileID: 3685327343672634516}
+  - component: {fileID: 2628447950139789213}
+  - component: {fileID: -4695753321116353207}
+  - component: {fileID: -6139664496749272084}
+  - component: {fileID: -3361272956996924242}
+  - component: {fileID: 3666704730605021674}
+  - component: {fileID: 6618737220708787376}
+  - component: {fileID: 4176084804335574719}
+  - component: {fileID: 2335181756834554997}
+  - component: {fileID: 1360508082099029891}
+  - component: {fileID: 2870570119820865175}
+  - component: {fileID: -6371447735109903414}
+  - component: {fileID: -415620773157606134}
+  - component: {fileID: -5647228390207959987}
+  - component: {fileID: -1745537524763087018}
+  - component: {fileID: -4183637745147263569}
+  - component: {fileID: 3212524992040287566}
+  - component: {fileID: 1389282458054785307}
+  - component: {fileID: -8227510188509307739}
+  - component: {fileID: 4976736504555839225}
+  - component: {fileID: -8283976574281166865}
+  - component: {fileID: -441427337143566610}
+  - component: {fileID: -692779169166218674}
+  - component: {fileID: -6600567511333629827}
+  - component: {fileID: 5132494507852652242}
+  - component: {fileID: 1805937035661298583}
+  - component: {fileID: 6064795273176192133}
+  - component: {fileID: -2389037633202933941}
+  - component: {fileID: -1662997518548609328}
+  - component: {fileID: -4503257603688225815}
+  - component: {fileID: 7597651788138232768}
+  m_Layer: 0
+  m_Name: Keeper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5030849539945243600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6522932360392007497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 3171425893
+  SendPriority: 1
+  EnableInterpolation: 1
+  Flags: 262402
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 3987200798469359129}
+  - {fileID: 2478297198424737721}
+  - {fileID: 3685327343672634516}
+  - {fileID: 2628447950139789213}
+  - {fileID: -4695753321116353207}
+  - {fileID: -6139664496749272084}
+  - {fileID: -3361272956996924242}
+  - {fileID: 3666704730605021674}
+  - {fileID: 6618737220708787376}
+  - {fileID: 4176084804335574719}
+  - {fileID: 2335181756834554997}
+  - {fileID: 1360508082099029891}
+  - {fileID: 2870570119820865175}
+  - {fileID: -6371447735109903414}
+  - {fileID: -415620773157606134}
+  - {fileID: -5647228390207959987}
+  - {fileID: -1745537524763087018}
+  - {fileID: -4183637745147263569}
+  - {fileID: 3212524992040287566}
+  - {fileID: 1389282458054785307}
+  - {fileID: -8227510188509307739}
+  - {fileID: 4976736504555839225}
+  - {fileID: -8283976574281166865}
+  - {fileID: -441427337143566610}
+  - {fileID: -692779169166218674}
+  - {fileID: -6600567511333629827}
+  - {fileID: 5132494507852652242}
+  - {fileID: 1805937035661298583}
+  - {fileID: 6064795273176192133}
+  - {fileID: -2389037633202933941}
+  - {fileID: -1662997518548609328}
+  - {fileID: -4503257603688225815}
+  - {fileID: 7597651788138232768}
+  ForceRemoteRenderTimeframe: 0
+--- !u!114 &3987200798469359129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 158639473, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stateAuthorityChangeErrorCorrectionDelta: 0
+  SyncScale: 0
+  SyncParent: 0
+  _autoAOIOverride: 1
+  ConfigFlags: 0
+  PhysicsSettings:
+    ForecastEnabled: 1
+    DebugPhysics: 0
+    GravityForecast: 2
+    MaxExtrapolationTime: 0.15
+    MinLinearDetectedError: 0.02
+    MinAngularDetectedError: 3
+    DeadzoneVelocityMode: 0
+    MaxLinearError: 0
+    MaxAngularError: 0
+    LowCorrectionProgressThreshold: 0.015
+    HighErrorSimilarityThreshold: 1
+    MaxErrorTotalTime: 0.5
+    MaxRemoteSleepIgnoreTime: 0.5
+    ErrorCorrectionType: 0
+    LinearVelCorrectionMul: 1
+    AngularVelCorrectionMul: 1
+    PositionCorrectionLerp: 0.15
+    RotationCorrectionLerp: 0.15
+    Spring: 75
+    Damper: 2
+    MinImpactfulCollisionAlignment: 0.3
+    ImpactStartCorrectionTime: 0.1
+    ImpactCorrectionTimeComplete: 0.3
+--- !u!114 &2478297198424737721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef9b21cbd329c1240a6c9852403490f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 7
+  radius: 0.45
+  _Slot: 0
+  _LocalPos: {x: 0, y: 0}
+  _DeckCode: 0
+  _PuppetMasterSlot: 0
+--- !u!114 &3685327343672634516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3978ae8a0855bc43a1e8ea752bb2bcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  speedBonusRatio:
+  - 0.5
+  - 1
+  - 1
+  cooldownSeconds: 60
+  maxReturns: 2
+  returnSpeed: 25
+  _Armed:
+    RawValue: 0
+--- !u!114 &2628447950139789213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a311c8adc4c6dfa49beaf3de7a59ae91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  cooldownSeconds: 60
+  hitsThrough: 000000000100000000000000
+  maxKeeperHiddenSeconds: 5
+  _KeeperHidden:
+    RawValue: 0
+--- !u!114 &-4695753321116353207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c6e7f4ba68acbc428d8bc016ca9ae54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  speedBonusRatio:
+  - 0.3
+  - 0.5
+  - 1
+--- !u!114 &-6139664496749272084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f6d88eb20fdac4f938f9184563cfd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  cooldowns:
+  - 30
+  - 15
+  - 3
+--- !u!114 &-3361272956996924242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5044518e8e0254cb815ac0573b9960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  cooldowns:
+  - 30
+  - 15
+  - 3
+  backOffset: 0.55
+  thickness: 0.15
+  extraWidth: 0.45
+  _LeftUp:
+    RawValue: 0
+  _RightUp:
+    RawValue: 0
+--- !u!114 &3666704730605021674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f1b8829478f764791b570dde334b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000d0070000
+  _Level: 0
+  livesPerGoal: 010000000100000002000000
+  cooldownSeconds: 120
+--- !u!114 &6618737220708787376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcad6d0e8c38f3e40990764b1856739f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  cooldownSeconds: 180
+  sizes:
+  - 0.06
+  - 0.12
+  - 0.24
+  durationSeconds: 8
+--- !u!114 &4176084804335574719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a475ffeb809a0e94c85ce3b7f1ce9ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  discPrefab:
+    RawGuidValue: 82a65366815fa3046ba72bfca39c350d
+  speed: 14
+  bounces: 040000000500000008000000
+  stunSeconds:
+  - 1
+  - 2
+  - 3
+  cooldowns:
+  - 60
+  - 30
+  - 15
+--- !u!114 &2335181756834554997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30f9798e8d05b142bea238778fa7efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  ballCounts: 03000000050000000a000000
+  spreadDegrees:
+  - 30
+  - 50
+  - 80
+  cooldowns:
+  - 30
+  - 25
+  - 20
+  _Armed:
+    RawValue: 0
+--- !u!114 &1360508082099029891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b448e3583eca8c4da5555712c3c44d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  cooldowns:
+  - 60
+  - 30
+  - 15
+  growScale: 2
+  shrinkScale: 0.5
+  durationSeconds: 8
+--- !u!114 &2870570119820865175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9744649fcc3790e4d9d5f1c85b296564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  turnRates:
+  - 25
+  - 70
+  - 360
+  decays:
+  - 0.3
+  - 0.3
+  - 1.2
+  fullSideAt: 0.5
+  deadZone: 0.15
+  straightTiltDegrees: 8
+--- !u!114 &-6371447735109903414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23f086f484905174d80f794e78ec4243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  damagePerGoal: 020000000200000003000000
+  everyNthGoal: 020000000100000001000000
+  _GoalsScored: 0
+--- !u!114 &-415620773157606134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9a7eb22c714bf4eadd84db52d9d436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  cooldowns:
+  - 60
+  - 30
+  - 15
+  splitAngle: 10
+  stunSeconds: 1
+  _Armed:
+    RawValue: 0
+--- !u!114 &-5647228390207959987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95610cf0a99584c9accccc94849d69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  cooldowns:
+  - 30
+  - 30
+  - 30
+  speedMultipliers:
+  - 1
+  - 1.5
+  - 1.5
+  durationSeconds: 10
+  mirrorRadius: 0.5
+  frontOffset: 0.6
+  _LocalPos: {x: 0, y: 0}
+--- !u!114 &-1745537524763087018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 758b942223e7d7c4cac478ab0d89f856, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  pullDegreesPerSecond:
+  - 90
+  - 250
+  - 250
+  pullRadius: 3
+  stealCooldown: 30
+--- !u!114 &-4183637745147263569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5762b6d1a42d6c44f92a297f5cd751da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  charges: 03000000050000000a000000
+  bonusLives: 00000000050000000a000000
+  cooldowns:
+  - 120
+  - 90
+  - 60
+  _Blocked: 0
+--- !u!114 &3212524992040287566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d05071870a410024f8bb06131433942d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  durations:
+  - 2
+  - 5
+  - 20
+  cooldowns:
+  - 120
+  - 90
+  - 60
+--- !u!114 &1389282458054785307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c969aba3364b764b889c9acacb2923c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  durations:
+  - 3
+  - 5
+  - 10
+  cooldowns:
+  - 120
+  - 90
+  - 60
+--- !u!114 &-8227510188509307739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bddc0be43921f4a8f2f025c3253291, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  cooldowns:
+  - 120
+  - 90
+  - 60
+  uses: 010000000100000002000000
+  _Used: 0
+--- !u!114 &4976736504555839225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 102befe183b45d646b8a0405b5565436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  cooldowns:
+  - 120
+  - 90
+  - 60
+  speedMultipliers:
+  - 1
+  - 1.5
+  - 1.5
+--- !u!114 &-8283976574281166865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b834a09ea5b5f4a8ecce7758b486ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  goldRewards: 140000003200000064000000
+  cooldownRewards:
+  - 0
+  - 5
+  - 10
+  cooldowns:
+  - 120
+  - 90
+  - 60
+  _TargetSlot: 0
+--- !u!114 &-441427337143566610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25452dd4ed14ae4479166125e164111a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  breakPenalties: 050000000a00000014000000
+  cooldowns:
+  - 120
+  - 90
+  - 60
+  durationSeconds: 60
+  _PartnerSlot: 0
+  _Penalty: 0
+--- !u!114 &-692779169166218674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34db0f5ee798a244c933147598158a73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  lifeGaps: 140000000a00000005000000
+  _Used:
+    RawValue: 0
+--- !u!114 &-6600567511333629827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0815a590e2938544d9c5fd61e6a6fe76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  damages: 03000000050000000a000000
+  cooldowns:
+  - 60
+  - 30
+  - 15
+  _Armed:
+    RawValue: 0
+--- !u!114 &5132494507852652242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59216661adc78c43a43c1f66e1415d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  durations:
+  - 3
+  - 5
+  - 7
+  cooldowns:
+  - 90
+  - 60
+  - 30
+--- !u!114 &1805937035661298583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33bae2223949df14da82b68ac7a417c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  intervals:
+  - 20
+  - 10
+  - 5
+--- !u!114 &6064795273176192133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8c040e2a213cb43b5f88c2e17475fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  durations:
+  - 1.5
+  - 2
+  - 3
+  cooldowns:
+  - 120
+  - 90
+  - 60
+--- !u!114 &-2389037633202933941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91e7b4e5b29b83a4baed1f5e8a55e732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  damages: 050000000a0000000f000000
+  cooldowns:
+  - 90
+  - 60
+  - 30
+  fuseSeconds: 10
+--- !u!114 &-1662997518548609328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24b88ba43552eb458640afcaadbcacc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  bounceCounts: 010000000200000003000000
+  dotSpacing: 0.35
+  dotSize: 0.12
+  maxSegmentLength: 40
+--- !u!114 &-4503257603688225815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574d8eb61344f7f4da53e72c377e4c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  goldAmounts: 960000002c01000090010000
+  stunSeconds:
+  - 1
+  - 2
+  - 3
+  cooldowns:
+  - 90
+  - 60
+  - 30
+  trapChance: 0.5
+  openWindowSeconds: 10
+  _TargetSlot: 0
+  _GiftLevel: 0
+--- !u!114 &7597651788138232768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112674430154147613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4e7ca1c85730fa40ac9a864d6c2d77e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prices: 3200000064000000c8000000
+  _Level: 0
+  radii:
+  - 3
+  - 4.5
+  - 6
+  speedMultipliers:
+  - 1.3
+  - 1.6
+  - 2
+  cooldowns:
+  - 60
+  - 40
+  - 20
